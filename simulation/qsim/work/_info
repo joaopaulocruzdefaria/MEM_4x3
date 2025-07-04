@@ -1,0 +1,165 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\jao\Memoria-4x3-main\simulation\qsim
+vMEM_4x3
+Z1 !s100 ZI0P2j?TZ@JDQ4V@5ChTe3
+Z2 IIdm>mL>Qb47Q[JOFojBLB0
+Z3 VmlhRcjV8m8?:cB`efOKXA3
+Z4 dC:\Users\jao\Memoria-4x3-main\simulation\qsim
+Z5 w1751590850
+Z6 8MEM_4x3.vo
+Z7 FMEM_4x3.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|MEM_4x3.vo|
+Z10 o-work work -O0
+Z11 n@m@e@m_4x3
+!i10b 1
+!s85 0
+Z12 !s108 1751590851.860000
+Z13 !s107 MEM_4x3.vo|
+!s101 -O0
+vMEM_4x3_vlg_check_tst
+!i10b 1
+Z14 !s100 B6cSRM2m4NaXND?HeaN@X2
+Z15 If77XZ`Z_F;9^fNYDKZO332
+Z16 VdM]Y;?VIhb9PRKekiPBgl3
+R4
+Z17 w1751590849
+Z18 8MEM_4x3.vt
+Z19 FMEM_4x3.vt
+L0 65
+R8
+r1
+!s85 0
+31
+Z20 !s108 1751590851.963000
+Z21 !s107 MEM_4x3.vt|
+Z22 !s90 -work|work|MEM_4x3.vt|
+!s101 -O0
+R10
+Z23 n@m@e@m_4x3_vlg_check_tst
+vMEM_4x3_vlg_sample_tst
+!i10b 1
+Z24 !s100 bgo@9a55hU^e`cU4GkGDc0
+Z25 IGkYSAViAO0OZ]EmO;l8^a0
+Z26 Vm5EDO<3WVM_@Z_`jbi[YH2
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@m@e@m_4x3_vlg_sample_tst
+vMEM_4x3_vlg_vec_tst
+!i10b 1
+Z28 !s100 f4Dmn]0J64oK4]FA7]W8D3
+Z29 ILbQaDao[IF9QN3hh0;hG=0
+Z30 VE6ELQ=kV=`^D4SK0BDFMj3
+R4
+R17
+R18
+R19
+Z31 L0 195
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@m@e@m_4x3_vlg_vec_tst
+vMemoria4x3
+Z33 !s100 Vk11W79hgYcmY;I^XMh7>2
+Z34 IH`n9kBBFCXUL=B6^>CfR`1
+Z35 VdXb>UEI[lMmno6BWC5i?c3
+R4
+Z36 w1751590379
+Z37 8Memoria4x3.vo
+Z38 FMemoria4x3.vo
+L0 31
+R8
+r1
+31
+Z39 !s90 -work|work|Memoria4x3.vo|
+R10
+Z40 n@memoria4x3
+Z41 !s108 1751590380.468000
+Z42 !s107 Memoria4x3.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vMemoria4x3_vlg_check_tst
+Z43 I1<3k7=0m0KILYnzNBC?B`3
+Z44 VRzl[SogcBji8B;GMK;aWN3
+R4
+Z45 w1751590378
+Z46 8Memoria4x3.vt
+Z47 FMemoria4x3.vt
+L0 65
+R8
+r1
+31
+Z48 !s108 1751590380.576000
+Z49 !s107 Memoria4x3.vt|
+Z50 !s90 -work|work|Memoria4x3.vt|
+R10
+Z51 n@memoria4x3_vlg_check_tst
+Z52 !s100 SK3?C:AzGlaE;34PhO;GG3
+!i10b 1
+!s85 0
+!s101 -O0
+vMemoria4x3_vlg_sample_tst
+Z53 Ijz0m[RUT2b_IN1G79Jh:^0
+Z54 VKheZ;=9T6`]YOLedz@aee2
+R4
+R45
+R46
+R47
+L0 29
+R8
+r1
+31
+R48
+R49
+R50
+R10
+Z55 n@memoria4x3_vlg_sample_tst
+Z56 !s100 nKb4XMN<Yj77eO7`2J^0G2
+!i10b 1
+!s85 0
+!s101 -O0
+vMemoria4x3_vlg_vec_tst
+Z57 I4VlC?AJLIV@McN`1IAnW`0
+Z58 V8DCdeQg1z^V=gDzP`88>O3
+R4
+R45
+R46
+R47
+R31
+R8
+r1
+31
+R48
+R49
+R50
+R10
+Z59 n@memoria4x3_vlg_vec_tst
+Z60 !s100 5GB]AO411VVVH?bVJOk_N2
+!i10b 1
+!s85 0
+!s101 -O0

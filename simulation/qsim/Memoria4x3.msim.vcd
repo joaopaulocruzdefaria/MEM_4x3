@@ -1,0 +1,640 @@
+$comment
+	File created using the following command:
+		vcd file Memoria4x3.msim.vcd -direction
+$end
+$date
+	Thu Jul 03 21:53:01 2025
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module Memoria4x3_vlg_vec_tst $end
+$var reg 2 ! A [1:0] $end
+$var reg 1 " CS $end
+$var reg 3 # I [2:0] $end
+$var reg 1 $ OE $end
+$var reg 1 % RD $end
+$var wire 1 & O [2] $end
+$var wire 1 ' O [1] $end
+$var wire 1 ( O [0] $end
+$var wire 1 ) sampler $end
+$scope module i1 $end
+$var wire 1 * gnd $end
+$var wire 1 + vcc $end
+$var wire 1 , unknown $end
+$var tri1 1 - devclrn $end
+$var tri1 1 . devpor $end
+$var tri1 1 / devoe $end
+$var wire 1 0 inst22~combout $end
+$var wire 1 1 inst28~combout $end
+$var wire 1 2 inst21~combout $end
+$var wire 1 3 inst26~combout $end
+$var wire 1 4 inst22~clkctrl_outclk $end
+$var wire 1 5 inst28~clkctrl_outclk $end
+$var wire 1 6 inst21~clkctrl_outclk $end
+$var wire 1 7 inst26~clkctrl_outclk $end
+$var wire 1 8 inst11~feeder_combout $end
+$var wire 1 9 inst11~regout $end
+$var wire 1 : inst6~regout $end
+$var wire 1 ; inst3~feeder_combout $end
+$var wire 1 < inst3~regout $end
+$var wire 1 = inst4~regout $end
+$var wire 1 > inst41~0_combout $end
+$var wire 1 ? inst41~1_combout $end
+$var wire 1 @ CS~combout $end
+$var wire 1 A RD~combout $end
+$var wire 1 B OE~combout $end
+$var wire 1 C inst43~0_combout $end
+$var wire 1 D inst~regout $end
+$var wire 1 E inst7~regout $end
+$var wire 1 F inst12~regout $end
+$var wire 1 G inst2~feeder_combout $end
+$var wire 1 H inst2~regout $end
+$var wire 1 I inst39~0_combout $end
+$var wire 1 J inst39~1_combout $end
+$var wire 1 K inst8~feeder_combout $end
+$var wire 1 L inst8~regout $end
+$var wire 1 M inst9~regout $end
+$var wire 1 N inst5~regout $end
+$var wire 1 O inst10~regout $end
+$var wire 1 P inst38~0_combout $end
+$var wire 1 Q inst38~1_combout $end
+$var wire 1 R A~combout [1] $end
+$var wire 1 S A~combout [0] $end
+$var wire 1 T I~combout [2] $end
+$var wire 1 U I~combout [1] $end
+$var wire 1 V I~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+1"
+b111 #
+0$
+0%
+x(
+x'
+x&
+x)
+0*
+1+
+x,
+1-
+1.
+1/
+x0
+x1
+x2
+x3
+x4
+x5
+x6
+x7
+x8
+09
+0:
+x;
+0<
+0=
+x>
+x?
+1@
+0A
+0B
+xC
+0D
+0E
+0F
+xG
+0H
+xI
+xJ
+xK
+0L
+0M
+0N
+0O
+xP
+xQ
+0S
+0R
+1V
+1U
+1T
+$end
+#1160
+01
+#1164
+00
+#1392
+0C
+#1768
+0Q
+0J
+#2046
+12
+#2075
+03
+#2747
+04
+#2827
+05
+#3359
+16
+#3648
+07
+#4291
+z&
+#4528
+z(
+z'
+#5303
+0>
+#5354
+1G
+#5500
+1K
+#5693
+0?
+#5802
+1;
+#5803
+18
+#6059
+0I
+0P
+#100000
+b10 !
+0)
+#100989
+1R
+#103035
+02
+#103064
+13
+#104348
+06
+#104637
+17
+#106118
+1H
+1O
+#106120
+1<
+#106567
+1P
+#106568
+1I
+#108447
+1Q
+#108501
+1J
+#108625
+1>
+#109015
+1?
+#200000
+b11 !
+b1 !
+1)
+#200850
+1S
+#200989
+0R
+#202010
+11
+#202015
+03
+#202511
+0>
+#202545
+0I
+0P
+#202757
+0Q
+0J
+#202901
+0?
+#203028
+10
+#203042
+01
+#203588
+07
+#204611
+14
+#206110
+1M
+1E
+1:
+#206153
+1>
+#206543
+1?
+#206909
+1I
+1P
+#208789
+1Q
+#208842
+1J
+#300000
+b11 !
+0)
+#300989
+1R
+#302511
+0>
+#302545
+0I
+0P
+#302901
+0?
+#303028
+00
+#303042
+11
+#304425
+0Q
+#304478
+0J
+#304611
+04
+#304709
+15
+#306194
+1N
+1F
+#306196
+19
+#306517
+1I
+1P
+#308397
+1Q
+#308450
+1J
+#308730
+1?
+#400000
+1$
+1%
+b110 #
+b100 #
+b0 #
+b10 !
+b0 !
+1)
+#400850
+0T
+0V
+0S
+#400852
+0U
+#400989
+0R
+1A
+1B
+#402010
+01
+#402015
+13
+#402511
+1>
+#402582
+1C
+#402583
+03
+#403677
+05
+#405926
+1&
+#406153
+0>
+#406163
+1(
+1'
+#406206
+0G
+#406350
+0K
+#406543
+0?
+#406652
+0;
+#406653
+08
+#406909
+0I
+0P
+#408789
+0Q
+#408842
+0J
+#409910
+0&
+#412381
+0(
+#412447
+0'
+#500000
+b10 !
+0)
+#500989
+1R
+#502511
+1>
+#502545
+1I
+1P
+#502901
+1?
+#504425
+1Q
+#504478
+1J
+#506268
+1&
+#508017
+1(
+#508083
+1'
+#600000
+b11 !
+b1 !
+1)
+#600850
+1S
+#600989
+0R
+#602511
+0>
+#602545
+0I
+0P
+#602901
+0?
+#604425
+0Q
+#604478
+0J
+#606152
+1?
+#606153
+1>
+#606268
+0&
+#606909
+1I
+1P
+#608017
+0(
+#608083
+0'
+#608789
+1Q
+#608842
+1J
+#609519
+1&
+#612381
+1(
+#612447
+1'
+#700000
+b11 !
+0)
+#700989
+1R
+#702511
+0>
+#800000
+0$
+0%
+b10 !
+b0 !
+1)
+#800850
+0S
+#800989
+0R
+0A
+0B
+#802381
+0C
+#802511
+1>
+#802583
+13
+#803035
+12
+#803064
+03
+#804348
+16
+#805280
+z&
+#805517
+z(
+z'
+#806153
+0>
+#806543
+0?
+#806909
+0I
+0P
+#808789
+0Q
+#808842
+0J
+#900000
+b10 !
+0)
+#900989
+1R
+#902511
+1>
+#902545
+1I
+1P
+#902901
+1?
+#903035
+02
+#903064
+13
+#904348
+06
+#904425
+1Q
+#904478
+1J
+#904637
+17
+#906118
+0H
+0O
+#906120
+0<
+#906567
+0P
+#906568
+0I
+#908447
+0Q
+#908501
+0J
+#908625
+0>
+#909015
+0?
+#1000000
+b11 !
+b1 !
+1)
+#1000850
+1S
+#1000989
+0R
+#1002010
+11
+#1002015
+03
+#1003028
+10
+#1003042
+01
+#1003588
+07
+#1004611
+14
+#1006110
+0M
+0E
+0:
+#1006152
+1?
+#1006153
+1>
+#1006543
+0?
+#1006909
+1I
+1P
+#1100000
+b11 !
+0)
+#1100989
+1R
+#1102511
+0>
+#1102757
+1Q
+1J
+#1102901
+1?
+#1103028
+00
+#1103042
+11
+#1104611
+04
+#1104709
+15
+#1106194
+0N
+0F
+#1106196
+09
+#1106517
+0I
+0P
+#1108397
+0Q
+#1108450
+0J
+#1108730
+0?
+#1200000
+1$
+1%
+b10 !
+b0 !
+1)
+#1200850
+0S
+#1200989
+0R
+1A
+1B
+#1202010
+01
+#1202015
+13
+#1202511
+1>
+#1202545
+1I
+1P
+#1202582
+1C
+#1202583
+03
+#1203677
+05
+#1205926
+0&
+#1206152
+1?
+#1206153
+0>
+#1206163
+0(
+0'
+#1206543
+0?
+#1206909
+0I
+0P
+#1300000
+b10 !
+0)
+#1300989
+1R
+#1400000
+b11 !
+b1 !
+1)
+#1400850
+1S
+#1400989
+0R
+#1406153
+1>
+#1406909
+1I
+1P
+#1500000
+b11 !
+0)
+#1500989
+1R
+#1502511
+0>
+#1502545
+0I
+0P
+#1502757
+1Q
+1J
+#1504425
+0Q
+#1504478
+0J
+#1600000
